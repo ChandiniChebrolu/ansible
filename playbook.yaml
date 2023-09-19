@@ -2,4 +2,4 @@
 hosts: monodb
 tasks:
 -name: pinging the node
-ansible.builtin.ping
+ansible.builtin.ping:
